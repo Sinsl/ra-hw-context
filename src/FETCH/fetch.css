@@ -1,0 +1,23 @@
+.get-fetch-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.server {
+  font-size: 24px;
+  color: lightgreen;
+}
+.get-fetch-item {
+  width: calc((100% - 20px * 2) / 3);
+}
+.get-fetch-item div:first-child {
+  font-size: 12px;
+}
+.completed {
+  color: lightgreen;
+}
+.not-completed {
+  color: lightcoral;
+}
